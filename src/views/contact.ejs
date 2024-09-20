@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= title %>
+    </title>
+    <%- include('partials/head') %>
+</head>
+
+<body>
+
+    <%- include('partials/navigation') %>
+
+<div class="container vh-100 d-flex justify-content-center aling-items-center">
+    <div class="card bg-white textw-black text-center">
+        <div class="card-header">
+            <h3>contact me</h3>
+        </div>
+        <div class="card-body text-start">
+            <form>
+                <div class="mb-3">
+                    <label for="email">email</label>
+                <input type="email" placeholder="gaticos@example.com" class="form-control">
+                </div>
+
+                <div class="mb-3">
+                    <label for="message">message</label>
+                <textarea name="message" rows="3" class="form-control" placeholder="write a message"></textarea>
+                </div>
+
+                
+        <button class="btn btn-primary btn-block">
+            save
+        </button>
+
+
+            </form>
+        <H5><LI>DIRECCION: CRA 25 #12-5</LI>
+            <LI>CONTACT: 3004492690</LI>
+            <LI>HORARIO: LUNES A SABADO 8AM A 9PM</LI>
+        </H5>
+        <img src="/img/vete.jpg" alt="" class="w-28 display-3">
+</body>
+
+</html>

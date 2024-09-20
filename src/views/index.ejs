@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= title %>
+    </title>
+    <%- include('partials/head') %>
+</head>
+
+<body>
+
+    <%- include('partials/navigation') %>
+
+        <header class="container vh-100 d-flex justify-content-center aling-items-center">
+            <div class="d-flex flex-column justify-content-center aling-items-center">
+                <img src="/img/cat.jpg" alt="" class="w-28 display-3">
+            <h1 class="display-3 my-5 text-uppercase fw-bold">Cat lover</h1>
+            
+            <a href="/servicios" class="btn btn-primary w-35" style="background-color: pink; color:black;   font-size: 25px;">Servicios</a>
+            </div>
+        </header>
+
+        <%- include('partials/footer') %>
+</body>
+
+</html>
